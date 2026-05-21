@@ -190,11 +190,15 @@ A limit of detection (LoD), defined as the lowest concentration of the standard 
 - [`rme_pcr-16_accuclear_models_2025-07-02.rds`](./data/rme_pcr-16_accuclear_models_2025-07-02.rds)
 
 ### Output
-- [`plot_pcr-probability.png`](../results/plot_pcr-probability.png)
-![](../results/plot_pcr-probability.png)
 - [`plot_pcr-quant-model.pdf`](../results/plot_pcr-quant-model.pdf)
+![](../results/plot_pcr-quant-model.pdf)
+
 - [`plot_logistic-regression_pcr-amplification.png`](../results/plot_logistic-regression_pcr-amplification.png)
+![](../results/plot_logistic-regression_pcr-amplification.png)
+
 - [`plot_logistic-regression_pcr-amplification_buffer-tl-only.png`](../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png)
+![](../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png)
+
 - [`model_coef_amplicon-concentration.csv`](../results/model_coef_amplicon-concentration.csv)
 
 ### Pipeline

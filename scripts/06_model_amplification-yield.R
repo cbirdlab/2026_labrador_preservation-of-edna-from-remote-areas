@@ -53,9 +53,6 @@ path_model_pcr_quant <-
   "../data/rme_pcr-16_accuclear_models_2025-07-02.rds"
 
 # Assign output file paths
-path_plot_pcr_probability <- 
-  "../results/plot_pcr-probability.png"
-
 path_plot_quant_model <- 
   "../results/plot_pcr-quant-model.pdf"
 
