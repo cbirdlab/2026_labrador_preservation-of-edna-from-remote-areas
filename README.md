@@ -9,6 +9,14 @@ This is the repository for the manuscript, **Effects of preservatives on the rec
 
 This repository contains a reproducible R-based analysis pipeline for processing and modeling DNA quantification and amplification data. The workflow integrates data wrangling, visualization, and statistical modeling steps to evaluate the effects of preservation and extraction method on eDNA yield and amplification success. The pipeline is organized into modular scripts that can be executed sequentially, from raw data compilation to model-based inferences.
 
+The URL for the GitHub repository is https://github.com/cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas.
+
+To clone the repository:
+
+```
+git clone git@github.com:cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas.git
+```
+
 ---
 
 # Directory Structure
