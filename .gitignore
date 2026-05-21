@@ -51,11 +51,3 @@ rsconnect/
 # DBF Files
 *.dbf
 *.DBF
-
-# ArcGIS files
-**/cnmi_map/
-
-# shape files
-**/PHL_NAMRIA/
-**/rota_shapefile/
-**/cnmi_shapefile/
