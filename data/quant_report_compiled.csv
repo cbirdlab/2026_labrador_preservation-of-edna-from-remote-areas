@@ -1,0 +1,121 @@
+"dna_plate_id","dna_extract_tube_id","sample_type","treatment","dna_plate_row","dna_plate_col","site_code","treatment_code","sample_id","ng_per_ul","ng_per_ul_lwr95","ng_per_ul_upr95","source","extraction_round","extraction_strategy","log10_dna_concentration"
+"rme_dna_2024-02-06","rme_01","sample","no preservative","F",1,"adu","np","adu-1123-cs",0.528942910722051,0.27090967009775,0.681658659080414,"filter","first","filter_first",-0.276591199224429
+"rme_dna_2024-02-06","rme_02","sample","no preservative","E",1,"agt","np","agt-1123-cs",0.147845275506803,0.107115447456962,0.260502974350941,"filter","first","filter_first",-0.83019254908246
+"rme_dna_2024-02-06","rme_03","sample","no preservative","A",7,"cga","np","cga-1123-cs",0.158499181507941,0.11570390609286,0.238965282286933,"filter","first","filter_first",-0.799972976143406
+"rme_dna_2024-02-06","rme_04","sample","no preservative","D",4,"cmu","np","cmu-1123-cs",0.365702918738243,0.199889943691013,0.471974202657483,"filter","first","filter_first",-0.436871573468751
+"rme_dna_2024-02-06","rme_05","sample","no preservative","C",10,"cvi","np","cvi-1123-cs",0.398742692025622,0.22051462180496,0.522199702978016,"filter","first","filter_first",-0.399307263413209
+"rme_dna_2024-02-06","rme_06","sample","no preservative","H",11,"hpo","np","hpo-1123-cs",0.30282793779207,0.158005853369338,0.402081771241746,"filter","first","filter_first",-0.518804060911622
+"rme_dna_2024-02-06","rme_07","sample","no preservative","H",7,"jre","np","jre-1123-cs",0.194982596734709,0.131267070449073,0.26559074983614,"filter","first","filter_first",-0.710004150070178
+"rme_dna_2024-02-06","rme_08","sample","no preservative","C",3,"mch","np","mch-1123-cs",0.383066006849118,0.214369590779949,0.492795753924894,"filter","first","filter_first",-0.41672638545588
+"rme_dna_2024-02-06","rme_09","sample","no preservative","G",1,"okg","np","okg-1123-cs",0.364322435343327,0.205717869256237,0.460360810751131,"filter","first","filter_first",-0.438514083641994
+"rme_dna_2024-02-06","rme_10","sample","no preservative","F",9,"rre","np","rre-1123-cs",0.424968598019688,0.239011028569933,0.541669089485557,"filter","first","filter_first",-0.37164315985703
+"rme_dna_2024-02-06","rme_11","sample","no preservative","F",2,"sip","np","sip-1123-cs",0.538719643377914,0.262193630751671,0.675432446337202,"filter","first","filter_first",-0.26863718845052
+"rme_dna_2024-02-06","rme_12","sample","no preservative","E",8,"spo","np","spo-1123-cs",0.375637762261233,0.221703955693409,0.479066024953833,"filter","first","filter_first",-0.425230755284201
+"rme_dna_2024-02-06","rme_13","sample","no preservative","E",2,"wha","np","wha-1123-cs",0.480143645712053,0.233253303962358,0.612267500474644,"filter","first","filter_first",-0.318628814275876
+"rme_dna_2024-02-06","rme_14","field control","field control","E",5,"nfc","np","nfc-1123-cs",0.095477658621698,0.0677137569354102,0.12484108599912,"filter","first","filter_first",-1.02009823964585
+"rme_dna_2024-02-06","rme_15","extraction control","extraction control","D",3,"nec","np","nec-0124-np",0.0851217588148849,0.0655759968955494,0.115701185761768,"filter","first","filter_first",-1.06995941141524
+"rme_dna_2024-02-06","rme_16","sample","dess","E",7,"wha","ds","wha-1123-ds",0.393947945247474,0.226911448367194,0.496450005697128,"filter","first","filter_first",-0.404561160370669
+"rme_dna_2024-02-06","rme_17","sample","buffer tl","D",2,"adu","tl","adu-1123-tl",0.0930293428109374,0.0693142198664414,0.19462376390707,"filter","first","filter_first",-1.03138004702744
+"rme_dna_2024-02-06","rme_18","sample","dess","A",3,"jre","ds","jre-1123-ds",0.143358362825429,0.0963529664692598,0.221479258148582,"filter","first","filter_first",-0.843576967363465
+"rme_dna_2024-02-06","rme_19","sample","dess","H",8,"adu","ds","adu-1123-ds",0.447067811011567,0.160233503941623,0.569170068311271,"filter","first","filter_first",-0.349626598312031
+"rme_dna_2024-02-06","rme_20","sample","buffer tl","H",10,"wha","tl","wha-1123-tl",0.0793396321767312,0.0606363094714506,0.15704671438613,"filter","first","filter_first",-1.10050981727233
+"rme_dna_2024-02-06","rme_21","sample","buffer tl","D",1,"sip","tl","sip-1123-tl",0.140814973048831,0.0992362284736509,0.210643492714725,"filter","first","filter_first",-0.851351163611867
+"rme_dna_2024-02-06","rme_22","sample","buffer tl","G",8,"agt","tl","agt-1123-tl",0.0732082639241783,0.0552022924254907,0.144598707651621,"filter","first","filter_first",-1.13543989197309
+"rme_dna_2024-02-06","rme_23","sample","buffer tl","A",8,"cvi","tl","cvi-1123-tl",0.0512725375810328,0.0413497885224531,0.115340741819634,"filter","first","filter_first",-1.29011518792009
+"rme_dna_2024-02-06","rme_24","extraction control","extraction control","A",1,"nec","np","nec-0124-np",0.0407179195463667,0.0330365444601093,0.0662805917817571,"filter","first","filter_first",-1.39021442007736
+"rme_dna_2024-02-06","rme_25","sample","dess","H",2,"rre","ds","rre-1123-ds",0.289234941200596,0.180821345265451,0.397634856886931,"filter","first","filter_first",-0.538749243002768
+"rme_dna_2024-02-06","rme_26","sample","dess","B",7,"mch","ds","mch-1123-ds",0.42644367900431,0.235475419090786,0.551190582982029,"filter","first","filter_first",-0.370138318571015
+"rme_dna_2024-02-06","rme_27","sample","buffer tl","C",2,"rre","tl","rre-1123-tl",0.0767733656819723,0.0605986851091949,0.15282492966926,"filter","first","filter_first",-1.11478941985859
+"rme_dna_2024-02-06","rme_28","field control","field control","D",9,"nfc","ds","nfc-1123-ds",0.0492956222525006,0.0388476679148129,0.0719711678489816,"filter","first","filter_first",-1.30719164697024
+"rme_dna_2024-02-06","rme_29","sample","dess","C",8,"okg","ds","okg-1123-ds",0.272048484457935,0.155524018419666,0.366908975755279,"filter","first","filter_first",-0.565353689141975
+"rme_dna_2024-02-06","rme_30","sample","dess","H",4,"hpo","ds","hpo-1123-ds",0.362175287446431,0.203977823373622,0.471434475623519,"filter","first","filter_first",-0.441081186522789
+"rme_dna_2024-02-06","rme_31","sample","buffer tl","D",8,"mch","tl","mch-1123-tl",0.0872136873145902,0.0660364058210338,0.155881468847804,"filter","first","filter_first",-1.05941535154997
+"rme_dna_2024-02-06","rme_32","sample","dess","A",12,"spo","ds","spo-1123-ds",0.599430657164153,0.302358220220479,0.735046707715484,"filter","first","filter_first",-0.222261049350424
+"rme_dna_2024-02-06","rme_33","sample","buffer tl","E",4,"spo","tl","spo-1123-tl",0.0726004623474129,0.0566536351681082,0.137145840838264,"filter","first","filter_first",-1.13906061353833
+"rme_dna_2024-02-06","rme_34","sample","dess","G",10,"sip","ds","sip-1123-ds",0.611900862061324,0.307765061446029,0.797841361905388,"filter","first","filter_first",-0.213318934957932
+"rme_dna_2024-02-06","rme_35","extraction control","extraction control","C",12,"nec","np","nec-0124-np",0.0495408747725811,0.0393336668548677,0.0744595078657139,"filter","first","filter_first",-1.30503632908747
+"rme_dna_2024-02-06","rme_36","sample","buffer tl","B",3,"okg","tl","okg-1123-tl",0.0694471324554993,0.0553147873041306,0.123507974928698,"filter","first","filter_first",-1.15834568202808
+"rme_dna_2024-02-06","rme_37","sample","buffer tl","D",12,"cmu","tl","cmu-1123-tl",0.0689022808441335,0.0557057127253809,0.135974946010122,"filter","first","filter_first",-1.16176640158111
+"rme_dna_2024-02-06","rme_38","sample","dess","H",5,"agt","ds","agt-1123-ds",0.124101692460265,0.0915274086608415,0.19669742313297,"filter","first","filter_first",-0.906222295687877
+"rme_dna_2024-02-06","rme_39","sample","buffer tl","G",3,"cga","tl","cga-1123-tl",0.0663498686728481,0.0523025576621887,0.177317033302567,"filter","first","filter_first",-1.17815993240337
+"rme_dna_2024-02-06","rme_40","sample","dess","E",10,"cmu","ds","cmu-1123-ds",0.173106546928601,0.119124310663994,0.360396307089483,"filter","first","filter_first",-0.761686506698858
+"rme_dna_2024-02-06","rme_41","sample","dess","F",3,"cvi","ds","cvi-1123-ds",0.276409452966773,0.155466485177157,0.370958104015551,"filter","first","filter_first",-0.558447108544199
+"rme_dna_2024-02-06","rme_42","field control","field control","B",5,"nfc","tl","nfc-1123-tl",0.0771198171240066,0.0580137297668667,0.101527835540415,"filter","first","filter_first",-1.11283400895648
+"rme_dna_2024-02-06","rme_43","sample","buffer tl","H",9,"hpo","tl","hpo-1123-tl",0.0743168181005,0.0513305082932181,0.141521794622928,"filter","first","filter_first",-1.12891289308031
+"rme_dna_2024-02-06","rme_44","sample","buffer tl","A",6,"jre","tl","jre-1123-tl",0.064415564514866,0.0514390281178662,0.129691916856272,"filter","first","filter_first",-1.19100918285437
+"rme_dna_2024-02-06","rme_45","sample","dess","C",5,"cga","ds","cga-1123-ds",0.115191133481379,0.0837749777716873,0.184930882091902,"filter","first","filter_first",-0.938580948241839
+"rme_dna_2024-02-06","rme_46","sample","dess","H",12,"okg","ds","okg-1123-ds",0.116186688298193,0.0872851292658391,0.193107348357506,"filter","second","filter_second",-0.934843626935426
+"rme_dna_2024-02-06","rme_47","sample","dess","F",6,"cvi","ds","cvi-1123-ds",0.0828761082195535,0.0626513687247763,0.154975262743932,"filter","second","filter_second",-1.0815706511613
+"rme_dna_2024-02-06","rme_48","sample","buffer tl","C",7,"spo","tl","spo-1123-tl",0.123201996374399,0.0872700423147765,0.250617326903042,"filter","second","filter_second",-0.909382254774184
+"rme_dna_2024-02-06","rme_49","sample","no preservative","F",8,"cvi","np","cvi-1123-cs",0.0576139530610912,0.0459918878101203,0.157818896480914,"filter","second","filter_second",-1.23947232554209
+"rme_dna_2024-02-06","rme_50","sample","buffer tl","F",5,"mch","tl","mch-1123-tl",0.0761403831537312,0.0586687113458178,0.191597429950139,"filter","second","filter_second",-1.11838494205892
+"rme_dna_2024-02-06","rme_51","sample","buffer tl","H",6,"adu","tl","adu-1123-tl",0.078994189820164,0.0609727648077438,0.14749459244634,"filter","second","filter_second",-1.10240485075813
+"rme_dna_2024-02-06","rme_52","sample","dess","G",7,"jre","ds","jre-1123-ds",0.0737582445181329,0.0577338736022,0.142878062901965,"filter","second","filter_second",-1.13218942824999
+"rme_dna_2024-02-06","rme_53","sample","no preservative","H",1,"wha","np","wha-1123-cs",0.0779317372642775,0.0581767202481868,0.1418896419495,"filter","second","filter_second",-1.10828564230464
+"rme_dna_2024-02-06","rme_54","sample","no preservative","F",11,"okg","np","okg-1123-cs",0.106107611202888,0.0798202252799853,0.188945711149771,"filter","second","filter_second",-0.974253462612717
+"rme_dna_2024-02-06","rme_55","extraction control","extraction control","E",11,"nec","np","nec-0124-np",0.0750834287768931,0.0564013600781081,0.0999038615207523,"filter","second","filter_second",-1.1244559030075
+"rme_dna_2024-02-06","rme_56","sample","buffer tl","C",6,"jre","tl","jre-1123-tl",0.0870537533294157,0.0649752481487912,0.17102165907218,"filter","second","filter_second",-1.06021249950227
+"rme_dna_2024-02-06","rme_57","sample","dess","H",3,"agt","ds","agt-1123-ds",0.125501289124402,0.0916296520566179,0.20420291639676,"filter","second","filter_second",-0.901351813173072
+"rme_dna_2024-02-06","rme_58","sample","no preservative","B",10,"spo","np","spo-1123-cs",0.124735523644257,0.0874364273575449,0.190045400850784,"filter","second","filter_second",-0.904009845433844
+"rme_dna_2024-02-06","rme_59","sample","dess","A",2,"hpo","ds","hpo-1123-ds",0.188244244936105,0.131362159126287,0.269458694147579,"filter","second","filter_second",-0.725278292315566
+"rme_dna_2024-02-06","rme_60","field control","field control","A",11,"nfc","ds","nfc-1123-ds",0.0911109759094345,0.064563061750273,0.121869508527507,"filter","second","filter_second",-1.04042930151472
+"rme_dna_2024-02-06","rme_61","sample","buffer tl","E",6,"agt","tl","agt-1123-tl",0.105857439799745,0.0801427792478096,0.194266567045087,"filter","second","filter_second",-0.975278613785982
+"rme_dna_2024-02-06","rme_62","sample","buffer tl","G",5,"hpo","tl","hpo-1123-tl",0.126697173631133,0.0926175179134109,0.204458727243499,"filter","second","filter_second",-0.897233073278312
+"rme_dna_2024-02-06","rme_63","sample","buffer tl","C",9,"okg","tl","okg-1123-tl",0.0891932901267461,0.0669657067301613,0.153698223026025,"filter","second","filter_second",-1.04966781569715
+"rme_dna_2024-02-06","rme_64","sample","dess","B",1,"mch","ds","mch-1123-ds",0.139549026540755,0.0987283168138422,0.218547197153513,"filter","second","filter_second",-0.855273188694898
+"rme_dna_2024-02-06","rme_65","field control","field control","C",1,"nfc","np","nfc-1123-cs",0.0663251876827999,0.0500138625666897,0.0904517593570336,"filter","second","filter_second",-1.17832151240498
+"rme_dna_2024-02-06","rme_66","sample","buffer tl","E",3,"cmu","tl","cmu-1123-tl",0.0675498151116088,0.0523473898218164,0.128450646489744,"filter","second","filter_second",-1.17037583533356
+"rme_dna_2024-02-06","rme_67","sample","no preservative","D",10,"cmu","np","cmu-1123-cs",0.0745349238597688,0.0592194672478984,0.156227765701744,"filter","second","filter_second",-1.12764018784673
+"rme_dna_2024-02-06","rme_68","sample","dess","G",9,"wha","ds","wha-1123-ds",0.0916173147154263,0.0701462984284023,0.1641144102918,"filter","second","filter_second",-1.03802244145497
+"rme_dna_2024-02-06","rme_69","sample","no preservative","B",9,"sip","np","sip-1123-cs",0.112850595441586,0.0734081928522121,0.180894164137039,"filter","second","filter_second",-0.947496145081452
+"rme_dna_2024-02-06","rme_70","sample","buffer tl","B",12,"rre","tl","rre-1123-tl",0.0783031856358909,0.0614694733797604,0.157415889229956,"filter","second","filter_second",-1.10622056902832
+"rme_dna_2024-02-06","rme_71","extraction control","extraction control","A",9,"nec","np","nec-0124-np",0.0589226919623776,0.0443159754020078,0.0857820930543487,"filter","second","filter_second",-1.22971742004903
+"rme_dna_2024-02-06","rme_72","sample","buffer tl","E",12,"wha","tl","wha-1123-tl",0.0809852321935522,0.0633717494527374,0.195918014623045,"filter","second","filter_second",-1.09159416830133
+"rme_dna_2024-02-06","rme_73","field control","field control","D",5,"nfc","tl","nfc-1123-tl",0.120466508843178,0.0878789104164778,0.148722242079908,"filter","second","filter_second",-0.919133675464713
+"rme_dna_2024-02-06","rme_74","sample","buffer tl","B",6,"cga","tl","cga-1123-tl",0.0541119098942048,0.0430849190170415,0.154358601861723,"filter","second","filter_second",-1.26670713725803
+"rme_dna_2024-02-06","rme_75","sample","no preservative","F",7,"rre","np","rre-1123-cs",0.11924696043579,0.0869897930341215,0.254174560994635,"filter","second","filter_second",-0.923552682164475
+"rme_dna_2024-02-06","rme_76","sample","dess","F",12,"cmu","ds","cmu-1123-ds",0.122380651392321,0.0472784826145591,0.184775722974069,"filter","second","filter_second",-0.912287239525237
+"rme_dna_2024-02-06","rme_77","sample","no preservative","B",8,"cga","np","cga-1123-cs",0.0899462109845134,0.0674930858724554,0.185904184517608,"filter","second","filter_second",-1.04601712673952
+"rme_dna_2024-02-06","rme_78","sample","no preservative","G",12,"adu","np","adu-1123-cs",0.117956248397322,0.0886840905634852,0.201869070118091,"filter","second","filter_second",-0.928279048652037
+"rme_dna_2024-02-06","rme_79","sample","dess","C",11,"adu","ds","adu-1123-ds",0.15069652992375,0.108118900750544,0.270928565481815,"filter","second","filter_second",-0.821896748032536
+"rme_dna_2024-02-06","rme_80","sample","buffer tl","F",4,"sip","tl","sip-1123-tl",0.0989788102010882,0.0725416581437968,0.194741546909999,"filter","second","filter_second",-1.00445777103615
+"rme_dna_2024-02-06","rme_81","sample","no preservative","D",6,"hpo","np","hpo-1123-cs",0.117777091100987,0.0822726976509567,0.239873398756788,"filter","second","filter_second",-0.928939176238038
+"rme_dna_2024-02-06","rme_82","sample","buffer tl","G",11,"cvi","tl","cvi-1123-tl",0.0542534608332589,0.0436253561995732,0.126725960556264,"filter","second","filter_second",-1.26557255291082
+"rme_dna_2024-02-06","rme_83","sample","dess","C",4,"rre","ds","rre-1123-ds",0.117428646186894,0.0856559468228581,0.177973859732545,"filter","second","filter_second",-0.930225945990244
+"rme_dna_2024-02-06","rme_84","sample","dess","G",4,"sip","ds","sip-1123-ds",0.151914160853478,0.105267954788887,0.267145186154879,"filter","second","filter_second",-0.8184017409899
+"rme_dna_2024-02-06","rme_85","sample","no preservative","D",11,"mch","np","mch-1123-cs",0.112678687913939,0.0815006668318959,0.175506764616632,"filter","second","filter_second",-0.948158218795368
+"rme_dna_2024-02-06","rme_86","sample","dess","B",2,"cga","ds","cga-1123-ds",0.134741944782195,0.0954893072491873,0.21000281069066,"filter","second","filter_second",-0.870497188599189
+"rme_dna_2024-02-06","rme_87","sample","no preservative","A",4,"jre","np","jre-1123-cs",0.168096179928556,0.118697454067334,0.243068362882677,"filter","second","filter_second",-0.774442156012043
+"rme_dna_2024-02-06","rme_88","sample","no preservative","B",11,"agt","np","agt-1123-cs",0.0874051564871668,0.0672412018558596,0.156782400932274,"filter","second","filter_second",-1.05846294530766
+"rme_dna_2024-02-06","rme_89","sample","dess","A",10,"spo","ds","spo-1123-ds",0.286207130813609,0.170476239255194,0.374904470562687,"filter","second","filter_second",-0.543319550050657
+"rme_dna_2024-02-06","rme_90","extraction control","extraction control","G",2,"nec","np","nec-0124-np",0.0299831117026956,0.024126319215494,0.0484465500774967,"filter","second","filter_second",-1.52312329726551
+"rme_preservative_dna_2024-11-06","rmep_16","sample","dess","A",1,"wha","ds","wha-1123-ds",0.0787780206349623,0.0554235119494436,0.123778618848467,"preservative","first","preservative_first",-1.1035949354095
+"rme_preservative_dna_2024-11-06","rmep_17","sample","buffer tl","B",1,"adu","tl","adu-1123-tl",0.126726663544911,0.0865947945434629,0.187664085762686,"preservative","first","preservative_first",-0.897131999069775
+"rme_preservative_dna_2024-11-06","rmep_18","sample","dess","C",1,"jre","ds","jre-1123-ds",0.0712819044113161,0.0500006055041043,0.108337389715066,"preservative","first","preservative_first",-1.14702070593699
+"rme_preservative_dna_2024-11-06","rmep_19","sample","dess","D",1,"adu","ds","adu-1123-ds",0.0449601259827078,0.0308467456972573,0.0745449328257726,"preservative","first","preservative_first",-1.34717248050131
+"rme_preservative_dna_2024-11-06","rmep_20","sample","buffer tl","E",1,"wha","tl","wha-1123-tl",0.0670134943914136,0.0460022773035936,0.109814768529915,"preservative","first","preservative_first",-1.17383773536448
+"rme_preservative_dna_2024-11-06","rmep_21","sample","buffer tl","F",1,"sip","tl","sip-1123-tl",0.0830325856162673,0.0568072194746583,0.125559858197076,"preservative","first","preservative_first",-1.08075143803251
+"rme_preservative_dna_2024-11-06","rmep_22","sample","buffer tl","G",1,"agt","tl","agt-1123-tl",0.0801140716940688,0.0561741185376598,0.126358903713972,"preservative","first","preservative_first",-1.09629119524728
+"rme_preservative_dna_2024-11-06","rmep_23","sample","buffer tl","H",1,"cvi","tl","cvi-1123-tl",0.210570507155231,0.145405146939356,0.301085649334914,"preservative","first","preservative_first",-0.676602456876516
+"rme_preservative_dna_2024-11-06","rmep_25","sample","dess","A",2,"rre","ds","rre-1123-ds",0.0629658201983999,0.0431341484278039,0.103162765981524,"preservative","first","preservative_first",-1.2008951351086
+"rme_preservative_dna_2024-11-06","rmep_26","sample","dess","B",2,"mch","ds","mch-1123-ds",0.0486011164026777,0.0354616742513566,0.0763116566755661,"preservative","first","preservative_first",-1.31335375456582
+"rme_preservative_dna_2024-11-06","rmep_27","sample","buffer tl","C",2,"rre","tl","rre-1123-tl",0.402892820487737,0.262339968126057,0.569136333751779,"preservative","first","preservative_first",-0.394810471629592
+"rme_preservative_dna_2024-11-06","rmep_28","field control","field control","E",2,"nfc","ds","nfc-1123-ds",0.0462066996681031,0.0295228710945648,0.092194001502169,"preservative","first","preservative_first",-1.33529505002961
+"rme_preservative_dna_2024-11-06","rmep_29","sample","dess","F",2,"okg","ds","okg-1123-ds",0.0587319779565495,0.0389020073617936,0.0985580314161126,"preservative","first","preservative_first",-1.23112537288172
+"rme_preservative_dna_2024-11-06","rmep_30","sample","dess","G",2,"hpo","ds","hpo-1123-ds",0.0708161796053593,0.0497604697146065,0.115054601075211,"preservative","first","preservative_first",-1.14986750628541
+"rme_preservative_dna_2024-11-06","rmep_31","sample","buffer tl","H",2,"mch","tl","mch-1123-tl",0.56928718238637,0.367791006717525,0.821868371304946,"preservative","first","preservative_first",-0.244668594304625
+"rme_preservative_dna_2024-11-06","rmep_32","sample","dess","A",3,"spo","ds","spo-1123-ds",0.0552779184503767,0.0378363593074772,0.0930753038321915,"preservative","first","preservative_first",-1.25744831915295
+"rme_preservative_dna_2024-11-06","rmep_33","sample","buffer tl","B",3,"spo","tl","spo-1123-tl",0.114283243421161,0.0809348641861269,0.174310849972403,"preservative","first","preservative_first",-0.942017442598676
+"rme_preservative_dna_2024-11-06","rmep_34","sample","dess","C",3,"sip","ds","sip-1123-ds",0.0554782474479561,0.0383691549411513,0.0881506341777574,"preservative","first","preservative_first",-1.2558772666994
+"rme_preservative_dna_2024-11-06","rmep_36","sample","buffer tl","D",3,"okg","tl","okg-1123-tl",0.0911916650744354,0.0603651183454758,0.149840141234189,"preservative","first","preservative_first",-1.04004485440843
+"rme_preservative_dna_2024-11-06","rmep_37","sample","buffer tl","E",3,"cmu","tl","cmu-1123-tl",0.0559929067264064,0.0383431770230951,0.0914566309152728,"preservative","first","preservative_first",-1.25186698664912
+"rme_preservative_dna_2024-11-06","rmep_38","sample","dess","F",3,"agt","ds","agt-1123-ds",0.0514831985513603,0.0363073084732835,0.083765150985833,"preservative","first","preservative_first",-1.28833447905488
+"rme_preservative_dna_2024-11-06","rmep_39","sample","buffer tl","G",3,"cga","tl","cga-1123-tl",0.237795014198431,0.166027694894372,0.330293617689259,"preservative","first","preservative_first",-0.623797255389359
+"rme_preservative_dna_2024-11-06","rmep_40","sample","dess","A",4,"cmu","ds","cmu-1123-ds",0.0949138844141336,0.0665824472813981,0.14284391751606,"preservative","first","preservative_first",-1.02267025244753
+"rme_preservative_dna_2024-11-06","rmep_41","sample","dess","B",4,"cvi","ds","cvi-1123-ds",0.105511943185394,0.0757806849666101,0.157617656287811,"preservative","first","preservative_first",-0.976698378603783
+"rme_preservative_dna_2024-11-06","rmep_42","field control","field control","C",4,"nfc","tl","nfc-1123-tl",0.137240662626204,0.0790113704921619,0.223770338982953,"preservative","first","preservative_first",-0.862517193747538
+"rme_preservative_dna_2024-11-06","rmep_43","sample","buffer tl","D",4,"hpo","tl","hpo-1123-tl",0.106956959319356,0.0750787533779226,0.160572710957842,"preservative","first","preservative_first",-0.970790952133465
+"rme_preservative_dna_2024-11-06","rmep_44","sample","buffer tl","E",4,"jre","tl","jre-1123-tl",0.191405080565897,0.127544061381109,0.291424991202537,"preservative","first","preservative_first",-0.718046538698934
+"rme_preservative_dna_2024-11-06","rmep_45","sample","dess","F",4,"cga","ds","cga-1123-ds",0.133360476888598,0.0917903183917385,0.199861044638655,"preservative","first","preservative_first",-0.874972860167781
+"rme_preservative_dna_2024-11-06","rmep_46","extraction control","extraction control","D",2,"nec","nc","nec-1104-nc",0.0344960606385524,0.0229774748054073,0.0681801271403995,"preservative","first","preservative_first",-1.46223049740853
+"rme_preservative_dna_2024-11-06","rmep_47","extraction control","extraction control","H",3,"nec","nc","nec-1104-nc",0.0723320036742424,0.0466990461541476,0.124190877278143,"preservative","first","preservative_first",-1.14066950431234
