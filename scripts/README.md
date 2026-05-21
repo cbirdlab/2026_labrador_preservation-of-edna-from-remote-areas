@@ -1,4 +1,4 @@
-# Script Description and Analytical Pipeline
+# Analytical Pipeline
 ---
 
 This directory contains all the scripts that were used to process the quant data from the **Rota Marine eDNA** project (project code: `rme`).
@@ -55,6 +55,7 @@ This script prepares and consolidates all data required for downstream analyses.
 
 <details>
 <summary> Click for script details </summary>
+
 ### Input
 - [`quant_report_compiled.csv`](../data/processed/quant_report_compiled.csv) (Output from Step 1)
 - [`rme_plate_normalization_for_pcr.xlsx`](../data/raw/rme_plate_normalization_for_pcr.xlsx)
@@ -87,28 +88,7 @@ This script prepares and consolidates all data required for downstream analyses.
 
 ---
 
-## [`03_explore_data.R`](./03_explore_data.R) 
-
-This script generates diagnostic and exploratory visualizations to assess patterns, variability, and relationships in DNA quantification data prior to statistical analysis. It provides an initial quality check on quantification results. This script is mostly for gathering insights into the data to guide downstream analyses. Actual statistical tests have their own script. 
-
-<details>
-<summary> Click for script details </summary>
-
-### Input
-- [`df_for_stats.rds`](../data/processed/df_for_stats.rds) (Output from Step 02)
-
-### Output
-- [`diagnostic_plots.png`](../results/diagnostic_plots.png)
-
-### Pipeline
-- imports the tidy dataset prepared from step 2. 
-- uses `ggplot2` and its extensions to produces key diagnostic plots (e.g., raincloud plots for data distribution, scatterplot to check for correlations among quantitative variables)
-
-</details>
-
----
-
-## [`04_plot_timeline.R`](./04_plot_timeline.R)
+## [`03_plot_timeline.R`](./03_plot_timeline.R)
 
 This script visualizes the sample preservation timeline for eDNA field collections and and the subsequent coldchain events. It produces a time-based graphic summarizing the chronological sequence and duration of different storage conditions used during the sample handling process.
 
@@ -128,7 +108,7 @@ This script visualizes the sample preservation timeline for eDNA field collectio
 </details>
 
 ---
-## [`05_plot_collection-sites.R`](./05_plot_collection-sites.R)
+## [`04_plot_collection-sites.R`](./04_plot_collection-sites.R)
 
 This script generates a map showing sampling locations in Rota Island, Commonwealth of the Northern Mariana Islands (CNMI). It integrates spatial data from shapefiles and site metadata from an Excel file to visualize sampling sites with labeled points and an inset map for geographic context.
 
@@ -137,7 +117,7 @@ This script generates a map showing sampling locations in Rota Island, Commonwea
 
 ### Input
 - [`rota_shapefile`](../data/raw/rota_shapefile/)
-- [`CNMI_shape_files`](../data/raw/cnmi_map/shape files/)
+- [`CNMI_shape_files`](../data/raw/cnmi_map/)
 - [`rme_site-info.xlsx`](../data/raw/rme_site-info.xlsx)
 
 ### Output
@@ -153,7 +133,7 @@ This script generates a map showing sampling locations in Rota Island, Commonwea
 
 ---
 
-## [`06_model_quant-results.R`](./06_model_quant-results.R) 
+## [`05_model_quant-results.R`](./05_model_quant-results.R) 
 
 This script performs a statistical analysis of DNA quantification data, including model fitting, diagnostics, and visualization of DNA concentrations across treatments and sources. The workflow evaluates experimental controls and compare treatment effects using Generalized Linear Mixed-Model (GLMM).
 
@@ -195,11 +175,11 @@ This script performs a statistical analysis of DNA quantification data, includin
 
 ---
 
-## [`07_model_amplification-yield.R`](./07_model_amplification-yield.R) 
+## [`06_model_amplification-yield.R`](./06_model_amplification-yield.R) 
 
 This script performs a statistical analysis of PCR amplification yield, including model fitting, diagnostics, and visualization. Generalized Linear Mixed Model (GLMM) is used for model-fitting.
 
-A limit of quantification (LoQ), defined as the lowest concentration of the standard that was accurately quantified by the AccuClear Assay, was used to determine whether amplification is successful ([PCR] yield ≥ LoQ) or not ([PCR] < LoQ).
+A limit of detection (LoD), defined as the lowest concentration of the standard that was accurately detected by the AccuClear Assay, was used to determine whether amplification is successful ([PCR] yield ≥ LoD) or not ([PCR] < LoD).
 
 <details>
 <summary> Click for script details </summary>
@@ -213,7 +193,7 @@ A limit of quantification (LoQ), defined as the lowest concentration of the stan
 - [`plot_pcr-quant-model.png`](../results/plot_pcr-quant-model.png)
 
 ### Pipeline
-- follows the same general pipeline as modeling DNA concentration (Step 06). This includes calculating EMMs, model diagnostics, and visualization
+- follows the same general pipeline as modeling DNA concentration (Step 05). This includes calculating EMMs, model diagnostics, and visualization
 - classifies samples based on amplification success ([PCR] yield ≥ LoQ)
 - calculates %samples amplified based on amplification successful
 
