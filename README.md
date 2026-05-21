@@ -19,6 +19,15 @@ git clone git@github.com:cbirdlab/2026_labrador_preservation-of-edna-from-remote
 
 ---
 
+
+# Citation
+
+Use the following to cite this repository: 
+
+Labrador, K. L., Garcia, E., Magnuson, S. F., Selwyn, J. D., & Bird, C. E. (2026). Effects of preservatives on the recovery of environmental DNA (eDNA) from seawater: Implications for field sampling in remote areas (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.20332200
+
+---
+
 # Directory Structure
 
 * `scripts` - all instructions for data manipulation
