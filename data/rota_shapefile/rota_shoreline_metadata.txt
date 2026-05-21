@@ -1,0 +1,250 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), NOAA Coastal Services Center (CSC)
+      Publication_Date: 20020923
+      Title: Vectorized Shoreline of Rota, Commonwealth of the Northern Mariana Islands, Derived from IKONOS Imagery, 2002
+      Edition: first
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Charleston, SC
+        Publisher: NOAA's Ocean Service, Coastal Services Center (CSC)
+      Other_Citation_Details: The vectorized shoreline data was derived from the one-meter panchromatic IKONOS imagery. Those areas of the coastline that were obscured by cloud cover were derived from United States Geological Survey (USGS) Digital Raster Graphics (DRGs).
+      Online_Linkage: http://biogeo.nos.noaa.gov/projects/mapping/pacific/territories/data/
+  Description:
+    Abstract: IKONOS imagery was purchased to support the Pacific Islands Geographic Information System (GIS) project and the National Ocean Service's (NOS) coral mapping activities. One-meter panchromatic and four-meter multi-spectral data were purchased for each study area. A digital vector shoreline was manually digitized from the one-meter panchromatic imagery to provide accurate, up-to-date shoreline data.
+    Purpose: The Pacific Islands Geographic Information System (GIS) project is a multiyear initiative designed to increase the use of GIS and related spatial technology in the coastal resource management programs of the Terriiories of American Samoa and Guam, the Commonwealth of the Northern Mariana Islands (CNMI), and the State of Hawaii. The project will focus on personnel, training, equipment, software, data, and applications. Where appropriate, other related activities in the region will be incorporated into the effort.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20011119
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 145.120642
+      East_Bounding_Coordinate: 145.291059
+      North_Bounding_Coordinate: 14.200756
+      South_Bounding_Coordinate: 14.109991
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Shoreline
+      Theme_Keyword: Shoreline data
+      Theme_Keyword: land/water interface
+      Theme_Keyword: vectorization
+      Theme_Keyword: Shoreline vectorization
+      Theme_Keyword: IKONOS
+      Theme_Keyword: IKONOS panchromatic imagery
+      Theme_Keyword: IKONOS multispectral imagery
+      Theme_Keyword: Pacific Islands GIS
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: Commonwealth of the Northern Mariana Islands
+      Place_Keyword: CNMI
+      Place_Keyword: Mariana Archipelago
+      Place_Keyword: Rota
+      Place_Keyword: Coastal Zone
+      Place_Keyword: Oceania
+  Access_Constraints: none
+  Use_Constraints: Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, NOAA, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program
+      Contact_Position: Biogeography Team Leader, Mapping Manager
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1305 East West Highway, N/SCI1
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910
+      Contact_Voice_Telephone: 301-713-3028
+      Contact_Facsimile_Telephone: 301-713-4384
+      Contact_Electronic_Mail_Address: tim.battista@noaa.gov
+      Hours_of_Service: 0800 - 1700, Monday to Friday, EST
+  Native_Data_Set_Environment: Microsoft Windows 2000 Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 8.2.0.700
+Data_Quality_Information:
+  Logical_Consistency_Report: These data are believed to be logically consistent, though no tests were performed. All arcs were snapped by the nodes to create consistently tied strings without node dangles. Line geometry is topologically clean.
+  Completeness_Report: This shoreline dataset of Rota, CNMI,  is dependent on the shoreline as delineated on 2001 IKONOS digital satellite imagery from Space Imaging, LLC. The position of the shoreline might change as the natural land changes or better maps and more current aerial photography become available.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: The data were created by delineating the shoreline off of IKONOS panchromatic digital satellite imagery collected in 2001. The horizontal resolution of the digital imagery  is 1 meter.  The original scale of the imagery was 1:3780. During orthorectification of the IKONOS imagery, 21 ground control points were used to determine the circular error (CE) at a 90% confidence level. For Pacific Islands, Rota, Commonwealth of the Northern Mariana Islands, IKONOS data, 2002 the circular error is 4.8 meters for the Panchromatic data set.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Space Imaging Incorporated
+          Publication_Date: 20011119
+          Title: IKONOS Panchromatic Satellite Imagery
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Thornton, CO
+            Publisher: Space Imaging
+          Online_Linkage: http://www.spaceimaging.com
+      Source_Scale_Denominator: 3780
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20011119
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: IKONOS
+      Source_Contribution: Used to identify and digitize the shoreline (land/water interface) for Guam.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Geological Survey
+          Publication_Date: 19980226
+          Title: Rota Digital Raster Graphic (DRG)
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: USGS
+          Online_Linkage: http://mapping.usgs.gov
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 19980226
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: USGS DRGs
+      Source_Contribution: Used to identify and digitize the shoreline (land/water interface) for areas of the coast that were obscured by cloud cover in the satellite imagery.
+    Process_Step:
+      Process_Description:
+        During the vectorization process, the satellite imagery was displayed on a computer screen using ESRI's ArcGIS 8.2 software. In order to obtain the highest degree of accuracy from the imagery, the one-meter panchromatic imagery was used as a base layer for digitizing. In an effort  to better visualize the land-water interface, the one-meter imagery was overlaid on top of the four-meter multispectral imagery using a 35 % transparency value. The near-infrared band (Band 4) was used in the display of the multispectral imagery. The resultant base layer contained the one-meter resolution of the panchromatic imagery and the colorization of the four-meter imagery. The display was zoomed to the image resolution of the panchromatic imagery and the shoreline was manually digitized. Areas of the shoreline that were obscured by cloud cover were digitized from USGS DRGs. All lines are coded with length, ID, origin, and source
+
+        Note - The USGS DRGs for Rota had to be adjusted in the x and y directions using ERDAS Imagine 8.5 to match the IKONOS imagery.
+      Process_Date: 20020905 - 20020923
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NOAA Coastal Services Center
+          Contact_Position: Pacific Islands GIS Specialist
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 2234 South Hobson Avenue
+            City: Charleston
+            State_or_Province: South Carolina
+            Postal_Code: 29405
+            Country: USA
+          Contact_Voice_Telephone: 843-740-1200
+          Contact_Facsimile_Telephone: 843-740-1224
+          Contact_Electronic_Mail_Address: csc@csc.noaa.gov
+          Hours_of_Service: 0800 - 1700, Monday through Friday, EST
+  Cloud_Cover: < 10 %
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 64
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 55
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: 147.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000032
+          Ordinate_Resolution: 0.000032
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_WGS_1984
+      Ellipsoid_Name: WGS_1984
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257224
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: rotashrln
+      Entity_Type_Definition: Polyline shapefile
+      Entity_Type_Definition_Source: NOAA Coastal Service Center
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program
+      Contact_Position: Biogeography Team Leader, Mapping Manager
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1305 East West Highway, N/SCI1
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910
+      Contact_Voice_Telephone: 301-713-3028
+      Contact_Facsimile_Telephone: 301-713-4384
+      Contact_Electronic_Mail_Address: tim.battista@noaa.gov
+      Hours_of_Service: 0800 - 1700, Monday to Friday, EST
+  Resource_Description: Downloadable Data
+  Distribution_Liability: Users must assume responsibility to determine the appropriate use for these data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://biogeo.nos.noaa.gov/projects/mapping/pacific/territories/data/
+    Fees: none
+Metadata_Reference_Information:
+  Metadata_Date: 20021121
+  Metadata_Review_Date: 20040706
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), NAtional Ocean Service (NOS), NOAA Coastal Services Center (CSC)
+      Contact_Position: Metadata Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 2234 South Hobson Avenue
+        City: Charleston
+        State_or_Province: South Carolina
+        Postal_Code: 29405
+        Country: USA
+      Contact_Voice_Telephone: 843-740-1200
+      Contact_Facsimile_Telephone: 843-740-1224
+      Contact_Electronic_Mail_Address: csc@csc.noaa.gov
+      Hours_of_Service: Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
