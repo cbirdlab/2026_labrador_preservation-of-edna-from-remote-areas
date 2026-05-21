@@ -9,7 +9,7 @@ This README contains the description of the datasets used in the manuscript.
 <details>	
 <summary> cnmi_map </summary>
 
-# Description
+## Description
 This directory contains the shape files used to plot the Commonwealth of the Northern Mariana Islands (CNMI), which was used as inset in Figure 1.
 
 </details>
@@ -17,7 +17,7 @@ This directory contains the shape files used to plot the Commonwealth of the Nor
 <details>	
 <summary> rota_shapefile </summary>
 
-# Description
+## Description
 This directory contains the shape files used to plot the Rota Island in CNMI. This was used to generate Figure 1.
 
 </details>
@@ -25,10 +25,10 @@ This directory contains the shape files used to plot the Rota Island in CNMI. Th
 <details>	
 <summary> df_for_stats.csv </summary>
 
-# Description
+## Description
 The compiled data frame used for downstream statistical analyses.
 
-## Column Headers
+### Column Headers
 
 A) filter_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
 B) site_id: a 3-letter code ID for the sites
@@ -53,10 +53,10 @@ Q) duration_on_ice_hours: duration_on_ice_min / 60
 <details>	
 <summary> quant_report_compiled.csv </summary>
 
-# Description
+## Description
 Compilation of the quant reports from the DNA Quantification Toolkit (Selwyn et al., 2025)
 
-## Column Headers
+### Column Headers
 
 A) dna_plate_id: ID assigned to the DNA plate 
 B) dna_extract_tube_id: ID assigned to the individual DNA tubes
@@ -82,10 +82,10 @@ P) log10_dna_concentration: log10(DNA concentration)
 <details>	
 <summary> rme_dna_2024-02-06_sample_concentration.csv </summary>
 
-# Description
+## Description
 Concentration of DNA extracted from Sterivex filters using the DNA Quantification Toolkit (Selwyn et al., 2025)
 
-## Column Headers
+### Column Headers
 
 A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
 B) dna_plate_id: ID assigned to the DNA plate 
@@ -107,10 +107,10 @@ L) flags: notes/comments on samples based on their concentration
 <details>	
 <summary> rme_preservative_dna_2024-11-06_sample-concentration.csv </summary>
 
-# Description
+## Description
 Concentration of DNA extracted from the preservative filtrate fraction using the DNA Quantification Toolkit (Selwyn et al., 2025)
 
-## Column Headers
+### Column Headers
 
 A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
 B) dna_plate_id: ID assigned to the DNA plate 
@@ -131,7 +131,7 @@ L) flags: notes/comments on samples based on their concentration
 <details>	
 <summary> rme_pcr-16_accuclear_models_2025-07-02.rds </summary>
 
-# Description
+## Description
 Model result from calculating the concentration of the PCR products using the DNA Quantification Toolkit (Selwyn et al., 2025). This is an RDS object that can be opened using R.
 
  
@@ -140,10 +140,10 @@ Model result from calculating the concentration of the PCR products using the DN
 <details>	
 <summary> rme_site-info.csv </summary>
 
-# Description
+## Description
 Sampling site metadata
 
-## Column Headers
+### Column Headers
 
 A) site: site name
 B) site-code: 3-letter site code
