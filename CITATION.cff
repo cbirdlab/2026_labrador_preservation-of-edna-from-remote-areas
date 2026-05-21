@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite this repository as shown below."
+authors:
+- family-names: "Labrador"
+  given-names: "Kevin L."
+
+- family-names: "Garcia"
+  given-names: "Eric"
+
+- family-names: "Magnuson"
+  given-names: "Sharon F."
+  
+- family-names: "Selwyn"
+  given-names: "Jason D." 
+  
+- family-names: "Bird"
+  given-names: "Christopher E."
+  
+title: "Effects of preservatives on the recovery of environmental DNA (eDNA) from seawater: Implications for field sampling in remote areas"
+version: 1.0.0
+doi: 10.5281/zenodo.20332200
+date-released: 2026-05-21
+url: "https://github.com/cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas"
