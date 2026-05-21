@@ -25,35 +25,34 @@ pacman::p_load(
 
 # Assign input file paths
 path_quant_report_summarized <- 
-  "../data/processed/quant_report_compiled.csv"
+  "../data/quant_report_compiled.csv"
 
 path_normalized_dna_concentration_for_pcr <- 
-  "../data/raw/rme_plate_normalization_for_pcr.xlsx"
+  "../data/rme_plate_normalization_for_pcr.xlsx"
 
 path_sampling_site_metadata <- 
-  "../data/raw/rme_site-info.xlsx"
+  "../data/rme_site-info.xlsx"
 
 path_pcr_scores <- 
-  "../data/raw/rme_pcr-score.xlsx"
+  "../data/rme_pcr-score.xlsx"
 
 path_pcr_quants <- 
-  "../data/processed/jselwyn_quant_modules/quant_module_2/rme_pcr-16_sample_concentrations.csv"
+  "../data/rme_pcr-16_sample_concentrations.csv"
 
 path_sample_info <- 
-  "../data/raw/rme_sample-info.xlsx"
+  "../data/rme_sample-info.xlsx"
 
 path_timeline <- 
-  "../data/raw/rme_timeline.xlsx"
+  "../data/rme_timeline.xlsx"
 
 
 
 # Assign output file paths
 path_df_for_stats_csv <- 
-  "../data/processed/df_for_stats.csv"
-
+  "../data/df_for_stats.csv"
 
 path_df_for_stats_rds <- 
-  "../data/processed/df_for_stats.rds"
+  "../data/df_for_stats.rds"
 
 
 

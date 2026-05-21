@@ -14,6 +14,8 @@ This directory contains the shape files used to plot the Commonwealth of the Nor
 
 </details>
 
+---
+
 <details>	
 <summary> rota_shapefile </summary>
 
@@ -21,6 +23,8 @@ This directory contains the shape files used to plot the Commonwealth of the Nor
 This directory contains the shape files used to plot the Rota Island in CNMI. This was used to generate Figure 1.
 
 </details>
+
+---
 
 <details>	
 <summary> df_for_stats.csv </summary>
@@ -50,6 +54,8 @@ The compiled data frame used for downstream statistical analyses.
  
 </details>
 
+---
+
 <details>	
 <summary> quant_report_compiled.csv </summary>
 
@@ -78,6 +84,7 @@ Compilation of the quant reports from the [DNA Quantification Toolkit (Selwyn et
  
 </details>
 
+---
 
 <details>	
 <summary> rme_dna_2024-02-06_sample_concentration.csv </summary>
@@ -103,6 +110,62 @@ Concentration of DNA extracted from Sterivex filters using the [DNA Quantificati
  
 </details>
 
+---
+
+<details>	
+<summary> rme_pcr-score.xlsx </summary>
+
+## Description
+Binary scores for PCR amplification based on the presence of target amplicon on agarose gel
+
+### Column Headers
+
+- A) pcr_id: ID assigned to the PCR plate
+- B) well_id: well position (row/column) in the PCR plate
+- C) dna_extract_tube_id: ID assigned to the individual DNA tubes
+- D) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- E) site_code: 3-letter site code
+- F) sample_type: sample classification (sample, field control, extraction control)
+- G) treatment: the preservative treatment used in the experiment
+- H) source: source of eDNA, either from Filter or Filtrate
+- I) pcr_score: binary score based on presence (1) or absence (0) of target amplicon on agarose gel
+
+
+</details>
+
+---
+
+<details>	
+<summary> rme_plate_normalization_for_pcr.xlsx </summary>
+
+## Description
+Details on the normalized DNA plate used for PCR.
+
+### Column Headers
+
+- A) dna_plate_id: ID assigned to the DNA plate 
+- B) dna_extract_tube_id: ID assigned to the individual DNA tubes
+- C) sample_type: sample classification (sample, field control, extraction control)
+- D) preservative: the preservative treatment used in the experiment
+- E) dna_plate_row: the row location of the DNA sample in the DNA plate
+- F) dna_plate_col: the column location of the DNA sample in the DNA plate
+- G) normalized_dna_plate_row: the row location of the DNA sample in the normalized DNA plate
+- H) normalized_dna_plate_col: the column location of the DNA sample in the normalized DNA plate
+- I) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- J) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
+- K) max_sample_volume_for_normalization_ul: maximum volume (uL) of sample DNA that can be used for normalization
+- L) desired_normalized_concentration_ng_per_ul: the desired DNA concentration (ng/uL) in the normalized plate
+- M) desired_normalized_plate_elution_volume_ul: the desired volume of DNA (uL) in the normalized plate
+- N) total_dna_needed_for_normalization_ng: total DNA (ng) needed to meet the desired concentration in the normalized plate
+- O) sample_volume_to_get_desired_concentration_ul: ideal volume of DNA (uL) that needs to be transferred from the source DNA plate to the destination (normalized) DNA plate
+- P) sample_volume_for_normalization_ul: actual volume of DNA (uL) transferred from the source DNA plate to the destination (normalized) DNA plate
+- Q) total_dna_in_normalized_plate_ng: actual DNA (ng) in normalized plate
+- R) dna_concentration_in_normalized_plate_ng_per_ul: actual DNA concentration (ng/uL) in normalized plate
+
+
+</details>
+
+---
 
 <details>	
 <summary> rme_preservative_dna_2024-11-06_sample-concentration.csv </summary>
@@ -125,8 +188,9 @@ Concentration of DNA extracted from the preservative filtrate fraction using the
 - K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
 - L) flags: notes/comments on samples based on their concentration
  
- 
 </details>
+
+---
 
 <details>	
 <summary> rme_pcr-16_accuclear_models_2025-07-02.rds </summary>
@@ -136,6 +200,8 @@ Model result from calculating the concentration of the PCR products using the [D
 
  
 </details>
+
+---
 
 <details>	
 <summary> rme_site-info.csv </summary>

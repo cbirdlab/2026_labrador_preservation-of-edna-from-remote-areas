@@ -26,16 +26,16 @@ pacman::p_load(
 
 # Assign input file paths
 path_quant_filter <-
-  "../data/processed/jselwyn_quant_modules/quant_module_2/rme_dna_2024-02-06_sample-concentration.csv"
+  "../data/rme_dna_2024-02-06_sample-concentration.csv"
 
 
 path_quant_preservative<- 
-  "../data/processed/jselwyn_quant_modules/quant_module_2/rme_preservative_dna_2024-11-06_sample-concentration.csv"
+  "../data/rme_preservative_dna_2024-11-06_sample-concentration.csv"
 
 
 # Assign output file paths
 path_quant_report_compiled <- 
-  "../data/processed/quant_report_compiled.csv"
+  "../data/quant_report_compiled.csv"
 
 ####----WRANGLE QUANT RESULTS----####
 
