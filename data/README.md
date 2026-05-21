@@ -54,7 +54,7 @@ The compiled data frame used for downstream statistical analyses.
 <summary> quant_report_compiled.csv </summary>
 
 ## Description
-Compilation of the quant reports from the DNA Quantification Toolkit (Selwyn et al., 2025)
+Compilation of the quant reports from the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md) 
 
 ### Column Headers
 
@@ -83,7 +83,7 @@ Compilation of the quant reports from the DNA Quantification Toolkit (Selwyn et 
 <summary> rme_dna_2024-02-06_sample_concentration.csv </summary>
 
 ## Description
-Concentration of DNA extracted from Sterivex filters using the DNA Quantification Toolkit (Selwyn et al., 2025)
+Concentration of DNA extracted from Sterivex filters using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
 
 ### Column Headers
 
@@ -108,7 +108,7 @@ Concentration of DNA extracted from Sterivex filters using the DNA Quantificatio
 <summary> rme_preservative_dna_2024-11-06_sample-concentration.csv </summary>
 
 ## Description
-Concentration of DNA extracted from the preservative filtrate fraction using the DNA Quantification Toolkit (Selwyn et al., 2025)
+Concentration of DNA extracted from the preservative filtrate fraction using the [DNA Quantification Toolkit (Selwyn et al., 2025)](](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
 
 ### Column Headers
 
