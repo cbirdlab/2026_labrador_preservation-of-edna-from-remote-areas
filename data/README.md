@@ -30,23 +30,23 @@ The compiled data frame used for downstream statistical analyses.
 
 ### Column Headers
 
-A) filter_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
-B) site_id: a 3-letter code ID for the sites
-C) dna_extract_tube_id: ID assigned to the DNA extracted from the Sterivex filters
-D) sample_type: sample classification (sample, field control, extraction control, positive control, PCR control)
-E) preservative: the preservative treatment used in the experiment
-F) fraction: source of eDNA, either from Filter or Filtrate
-G) dna_concentration_ng_per_ul: concentration of eDNA (ng/uL) calculated from the Quant Module
-H) log10_dna_concentration: log10(dna_concentration_ng_per_ul)
-I) dna_concentration_in_normalized_plate_ng_per_ul: concentration of eDNA used for PCR
-J) pcr_plate_well_id: well designation of the DNA sample in the 96-well PCR plate
-K) pcr_gel_score: a binary score indicating the presence (1) or absence (0) of the target 16S rRNA amplicon in the agarose gel
-L) pcr_concentration_ng_per_ul: concentration (ng/uL) of the PCR products
-M) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) of eDNA collection
-N) volume_filtered: volume (mL) of seawater filtered through the Sterivex filter
-O) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) when sample collection ended
-P) duration_on_ice_min: how long (min) the samples were stored on ice in the field before storage in -20C
-Q) duration_on_ice_hours: duration_on_ice_min / 60
+- A) filter_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- B) site_id: a 3-letter code ID for the sites
+- C) dna_extract_tube_id: ID assigned to the DNA extracted from the Sterivex filters
+- D) sample_type: sample classification (sample, field control, extraction control, positive control, PCR control)
+- E) preservative: the preservative treatment used in the experiment
+- F) fraction: source of eDNA, either from Filter or Filtrate
+- G) dna_concentration_ng_per_ul: concentration of eDNA (ng/uL) calculated from the Quant Module
+- H) log10_dna_concentration: log10(dna_concentration_ng_per_ul)
+- I) dna_concentration_in_normalized_plate_ng_per_ul: concentration of eDNA used for PCR
+- J) pcr_plate_well_id: well designation of the DNA sample in the 96-well PCR plate
+- K) pcr_gel_score: a binary score indicating the presence (1) or absence (0) of the target 16S rRNA amplicon in the agarose gel
+- L) pcr_concentration_ng_per_ul: concentration (ng/uL) of the PCR products
+- M) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) of eDNA collection
+- N) volume_filtered: volume (mL) of seawater filtered through the Sterivex filter
+- O) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) when sample collection ended
+- P) duration_on_ice_min: how long (min) the samples were stored on ice in the field before storage in -20C
+- Q) duration_on_ice_hours: duration_on_ice_min / 60
  
 </details>
 
