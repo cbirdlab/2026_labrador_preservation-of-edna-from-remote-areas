@@ -58,22 +58,22 @@ Compilation of the quant reports from the DNA Quantification Toolkit (Selwyn et 
 
 ### Column Headers
 
-A) dna_plate_id: ID assigned to the DNA plate 
-B) dna_extract_tube_id: ID assigned to the individual DNA tubes
-C) sample_type: sample classification (sample, field control, extraction control)
-D) treatment: the preservative treatment used in the experiment
-E) dna_plate_row: the row location of the DNA sample in the DNA plate
-F) dna_plate_col: the column location of the DNA sample in the DNA plate
-G) site_code: a 3-letter code ID for the sites
-H) treatment_code: a 2-letter code used for the treatments
-I) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
-J) ng_per_ul: DNA concentration (ng/uL) 
-K) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
-L) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration
-M) source: source of eDNA, either from Filter or Filtrate
-N) extraction_round: indicates which round of extraction (first, second) the eDNA was obtained
-O) extraction_strategy: <source>_<extraction_round>
-P) log10_dna_concentration: log10(DNA concentration) 
+- A) dna_plate_id: ID assigned to the DNA plate 
+- B) dna_extract_tube_id: ID assigned to the individual DNA tubes
+- C) sample_type: sample classification (sample, field control, extraction control)
+- D) treatment: the preservative treatment used in the experiment
+- E) dna_plate_row: the row location of the DNA sample in the DNA plate
+- F) dna_plate_col: the column location of the DNA sample in the DNA plate
+- G) site_code: a 3-letter code ID for the sites
+- H) treatment_code: a 2-letter code used for the treatments
+- I) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- J) ng_per_ul: DNA concentration (ng/uL) 
+- K) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
+- L) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration
+- M) source: source of eDNA, either from Filter or Filtrate
+- N) extraction_round: indicates which round of extraction (first, second) the eDNA was obtained
+- O) extraction_strategy: <source>_<extraction_round>
+- P) log10_dna_concentration: log10(DNA concentration) 
  
  
 </details>
@@ -87,18 +87,18 @@ Concentration of DNA extracted from Sterivex filters using the DNA Quantificatio
 
 ### Column Headers
 
-A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
-B) dna_plate_id: ID assigned to the DNA plate 
-C) dna_extract_tube_ID: ID assigned to the individual DNA tubes
-D) sample_type: sample classification (sample, field control, extraction control)
-E) preservative: the preservative treatment used in the experiment
-F) dna_plate_row: the row location of the DNA sample in the DNA plate
-G) dna_plate_col: the column location of the DNA sample in the DNA plate
-H) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
-I) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
-J) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
-K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
-L) flags: notes/comments on samples based on their concentration
+- A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
+- B) dna_plate_id: ID assigned to the DNA plate 
+- C) dna_extract_tube_ID: ID assigned to the individual DNA tubes
+- D) sample_type: sample classification (sample, field control, extraction control)
+- E) preservative: the preservative treatment used in the experiment
+- F) dna_plate_row: the row location of the DNA sample in the DNA plate
+- G) dna_plate_col: the column location of the DNA sample in the DNA plate
+- H) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- I) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
+- J) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
+- K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
+- L) flags: notes/comments on samples based on their concentration
  
  
 </details>
@@ -112,18 +112,18 @@ Concentration of DNA extracted from the preservative filtrate fraction using the
 
 ### Column Headers
 
-A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
-B) dna_plate_id: ID assigned to the DNA plate 
-C) dna_extract_tube_ID: ID assigned to the individual DNA tubes
-D) sample_type: sample classification (sample, field control, extraction control)
-E) preservative: the preservative treatment used in the experiment
-F) dna_plate_row: the row location of the DNA sample in the DNA plate
-G) dna_plate_col: the column location of the DNA sample in the DNA plate
-H) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
-I) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
-J) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
-K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
-L) flags: notes/comments on samples based on their concentration
+- A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
+- B) dna_plate_id: ID assigned to the DNA plate 
+- C) dna_extract_tube_ID: ID assigned to the individual DNA tubes
+- D) sample_type: sample classification (sample, field control, extraction control)
+- E) preservative: the preservative treatment used in the experiment
+- F) dna_plate_row: the row location of the DNA sample in the DNA plate
+- G) dna_plate_col: the column location of the DNA sample in the DNA plate
+- H) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- I) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
+- J) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
+- K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
+- L) flags: notes/comments on samples based on their concentration
  
  
 </details>
@@ -145,14 +145,14 @@ Sampling site metadata
 
 ### Column Headers
 
-A) site: site name
-B) site-code: 3-letter site code
-C) resiliency-category: the relative resilience category of the site based on Maynard et al., 2015
-D) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) of eDNA collection
-E) weather-conditions: weather-conditions during sample collection (sunny, partly cloudy, intermittent rain)
-F) wave-strength: wave strength during sample collection
-G) depth_ft: depth (ft) of water column where surface seawater collection took place
-H) latitude: site coordinate (latitude) in decimal degrees
-I) longitude: site coordinate (longitude) in decimal degrees
+- A) site: site name
+- B) site-code: 3-letter site code
+- C) resiliency-category: the relative resilience category of the site based on Maynard et al., 2015
+- D) date_and_time_collection: date (yyyy-mm-dd) and time (hh:mm:ss) of eDNA collection
+- E) weather-conditions: weather-conditions during sample collection (sunny, partly cloudy, intermittent rain)
+- F) wave-strength: wave strength during sample collection
+- G) depth_ft: depth (ft) of water column where surface seawater collection took place
+- H) latitude: site coordinate (latitude) in decimal degrees
+- I) longitude: site coordinate (longitude) in decimal degrees
   
 </details>
