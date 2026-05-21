@@ -1,5 +1,5 @@
-# `output` - all manipulated data files
+# `results`
 
 ---
 
-this directory is where all data files that have been altered from their original state should be kept.  All code should output to here. All manually edited data files, with the exception of your metadata files, should be stored here.  
+This directory contains all the statistical results and figures generated with R scripts. Refer to the [script directory](../scripts/) to know how these files were produced.

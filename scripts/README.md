@@ -203,9 +203,6 @@ A limit of detection (LoD), defined as the lowest concentration of the standard 
 - [`plot_pcr-quant-model.png`](../results/plot_pcr-quant-model.png)
 ![](../results/plot_pcr-quant-model.png)
 
-- [`plot_logistic-regression_pcr-amplification.png`](../results/plot_logistic-regression_pcr-amplification.png)
-![](../results/plot_logistic-regression_pcr-amplification.png)
-
 - [`plot_logistic-regression_pcr-amplification_buffer-tl-only.png`](../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png)
 ![](../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png)
 

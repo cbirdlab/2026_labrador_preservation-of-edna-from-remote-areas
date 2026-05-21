@@ -56,9 +56,6 @@ path_model_pcr_quant <-
 path_plot_quant_model <- 
   "../results/plot_pcr-quant-model.png"
 
-path_plot_log_model <- 
-  "../results/plot_logistic-regression_pcr-amplification.png"
-
 path_plot_log_model_supplementary <- 
   "../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png"
 
@@ -1228,16 +1225,6 @@ ggsave(
   height = 10, 
   units = "in",
   dpi = 600)
-
-ggsave(
-  plot_log_model,
-  filename = path_plot_log_model,
-  width = 7,
-  height = 5, 
-  units = "in",
-  dpi = 330)
-
-
 
 ggsave(
   plot_log_model_comp_supplementary,
