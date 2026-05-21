@@ -47,7 +47,7 @@ path_site_info <-
 
 # Assign output files
 path_plot_sampling_site <- 
-    "../results/plot_sampling_site.svg"
+    "../results/plot_sampling_site.png"
 
 path_site_info_for_supp_table <-
   "../results/rme_site-info.csv"

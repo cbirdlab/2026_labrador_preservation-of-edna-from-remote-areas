@@ -58,7 +58,7 @@ path_compare_control <-
   "../results/plot_compare_control.png"
 
 path_model_coef <- 
-  "../results/plot_model_coef.pdf"
+  "../results/plot_model_coef.png"
 
 path_model_emmeans <- 
   "../results/model_emmeans.csv"

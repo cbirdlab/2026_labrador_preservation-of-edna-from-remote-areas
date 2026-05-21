@@ -101,6 +101,7 @@ This script visualizes the sample preservation timeline for eDNA field collectio
 
 ### Output
 - [`plot_timeline.png`](../results/plot_timeline.png)
+![](../results/plot_timeline.png)
 
 ### Pipeline
 - use `viztime` package to prepare data frame for plotting
@@ -121,7 +122,9 @@ This script generates a map showing sampling locations in Rota Island, Commonwea
 - [`rme_site-info.xlsx`](../data/rme_site-info.xlsx)
 
 ### Output
-- [`plot_sampling_site.png`](../results/plot_sampling_site.svg)
+- [`plot_sampling_site.png`](../results/plot_sampling_site.png)
+![](../results/plot_sampling_site.png)
+
 - [`rme_site-info.csv`]("../results/rme_site-info.csv")
 
 ### Pipeline
@@ -146,9 +149,16 @@ This script performs a statistical analysis of DNA quantification data, includin
 
 ### Output
 - [`plot_compare_control.png`](../results/plot_compare_control.png)
-- [`plot_model_coef.png`](../results/plot_model_coef.pdf)
-- [`model_emmeans.csv`](../results/model_emmeans.csv)
+![](../results/plot_compare_control.png)
+
+- [`plot_model_coef.png`](../results/plot_model_coef.png)
+![](../results/plot_model_coef.png)
+
 - [`plot_contrasts`](../results/plot_model-contrasts.png)
+![](../results/plot_model-contrasts.png)
+
+- [`model_emmeans.csv`](../results/model_emmeans.csv)
+
 
 ### Pipeline
 - assesses the distribution of DNA concentration values using Cullen and Frey plots and fits multiple parametric distributions
@@ -190,8 +200,8 @@ A limit of detection (LoD), defined as the lowest concentration of the standard 
 - [`rme_pcr-16_accuclear_models_2025-07-02.rds`](./data/rme_pcr-16_accuclear_models_2025-07-02.rds)
 
 ### Output
-- [`plot_pcr-quant-model.pdf`](../results/plot_pcr-quant-model.pdf)
-![](../results/plot_pcr-quant-model.pdf)
+- [`plot_pcr-quant-model.png`](../results/plot_pcr-quant-model.png)
+![](../results/plot_pcr-quant-model.png)
 
 - [`plot_logistic-regression_pcr-amplification.png`](../results/plot_logistic-regression_pcr-amplification.png)
 ![](../results/plot_logistic-regression_pcr-amplification.png)

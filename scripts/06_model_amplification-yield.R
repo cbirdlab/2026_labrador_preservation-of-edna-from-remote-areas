@@ -54,7 +54,7 @@ path_model_pcr_quant <-
 
 # Assign output file paths
 path_plot_quant_model <- 
-  "../results/plot_pcr-quant-model.pdf"
+  "../results/plot_pcr-quant-model.png"
 
 path_plot_log_model <- 
   "../results/plot_logistic-regression_pcr-amplification.png"
