@@ -33,18 +33,17 @@ pacman::p_load(
 
 # Assign input file paths
 path_sf_rota <- 
-    "../data/raw/rota_shapefile/"
+    "../data/rota_shapefile/"
   
-
 path_sf_cnmi <- 
-    "../data/raw/cnmi_map/shape files/" %>% 
+    "../data/cnmi_map/shape files/" %>% 
   list.files(
     pattern = ".zip",
     full.names = T
   )
 
 path_site_info <- 
-    "../data/raw/rme_site-info.xlsx"
+    "../data/rme_site-info.xlsx"
 
 # Assign output files
 path_plot_sampling_site <- 

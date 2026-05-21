@@ -61,7 +61,7 @@ This script prepares and consolidates all data required for downstream analyses.
 - [`rme_plate_normalization_for_pcr.xlsx`](../data/rme_plate_normalization_for_pcr.xlsx)
 - [`rme_site-info.xlsx`](../data/rme_site-info.xlsx)
 - [`rme_pcr-score.xlsx`](../data/rme_pcr-score.xlsx)
-- [`rme_pcr-16_sample_concentrations.csv`](../data/jselwyn_quant_modules/quant_module_2/rme_pcr-16_sample_concentrations.csv)
+- [`rme_pcr-16_sample_concentrations.csv`](../data/rme_pcr-16_sample_concentrations.csv)
 - [`rme_sample-info.xlsx`](../data/rme_sample-info.xlsx)
 - [`rme_timeline.xlsx`](../data/rme_timeline.xlsx)
 
@@ -97,7 +97,7 @@ This script visualizes the sample preservation timeline for eDNA field collectio
 <summary> Click for script details </summary>
 
 ### Input
-- [`rme_timeline.xlsx`](../data/raw/rme_timeline.xlsx)
+- [`rme_timeline.xlsx`](../data/rme_timeline.xlsx)
 
 ### Output
 - [`plot_timeline.png`](../results/plot_timeline.png)
@@ -116,12 +116,12 @@ This script generates a map showing sampling locations in Rota Island, Commonwea
 <summary> Click for script details </summary>
 
 ### Input
-- [`rota_shapefile`](../data/raw/rota_shapefile/)
-- [`CNMI_shape_files`](../data/raw/cnmi_map/)
-- [`rme_site-info.xlsx`](../data/raw/rme_site-info.xlsx)
+- [`rota_shapefile`](../data/rota_shapefile/)
+- [`CNMI_shape_files`](../data/cnmi_map/)
+- [`rme_site-info.xlsx`](../data/rme_site-info.xlsx)
 
 ### Output
-- [`plot_sampling_site.png`](../results/plot_sampling_site.png)
+- [`plot_sampling_site.png`](../results/plot_sampling_site.svg)
 - [`rme_site-info.csv`]("../results/rme_site-info.csv")
 
 ### Pipeline
@@ -141,13 +141,14 @@ This script performs a statistical analysis of DNA quantification data, includin
 <summary> Click for script details </summary>
 
 ### Input
-- [`df_for_stats.rds`](../data/processed/df_for_stats.rds) (Output from Step 02)
+- [`df_for_stats.rds`](../data/df_for_stats.rds) (Output from Step 02)
 
 
 ### Output
 - [`plot_compare_control.png`](../results/plot_compare_control.png)
-- [`plot_model_coef.png`](../results/plot_model_coef.png)
+- [`plot_model_coef.png`](../results/plot_model_coef.pdf)
 - [`model_emmeans.csv`](../results/model_emmeans.csv)
+- [`plot_contrasts`](../results/plot_model-contrasts.png)
 
 ### Pipeline
 - assesses the distribution of DNA concentration values using Cullen and Frey plots and fits multiple parametric distributions
@@ -185,16 +186,19 @@ A limit of detection (LoD), defined as the lowest concentration of the standard 
 <summary> Click for script details </summary>
 
 ### Input
-- [`df_for_stats.rds`](../data/processed/df_for_stats.rds) (Output from Step 02)
-- [`rme_pcr-16_accuclear_models_2025-07-02.rds`](./data/processed/jselwyn_quant_modules/quant_module_1/rme_pcr-16_accuclear_models_2025-07-02.rds)
+- [`df_for_stats.rds`](../data/df_for_stats.rds) (Output from Step 02)
+- [`rme_pcr-16_accuclear_models_2025-07-02.rds`](./data/rme_pcr-16_accuclear_models_2025-07-02.rds)
 
 ### Output
 - [`plot_pcr-probability.png`](../results/plot_pcr-probability.png)
-- [`plot_pcr-quant-model.png`](../results/plot_pcr-quant-model.png)
+- [`plot_pcr-quant-model.png`](../results/plot_pcr-quant-model.pdf)
+- [`plot_logistic-regression_pcr-amplification.png`](../results/plot_logistic-regression_pcr-amplification.png)
+- [`plot_logistic-regression_pcr-amplification_buffer-tl-only.png`](../results/plot_logistic-regression_pcr-amplification_buffer-tl-only.png)
+- [`model_coef_amplicon-concentration.csv`](../results/model_coef_amplicon-concentration.csv)
 
 ### Pipeline
 - follows the same general pipeline as modeling DNA concentration (Step 05). This includes calculating EMMs, model diagnostics, and visualization
-- classifies samples based on amplification success ([PCR] yield ≥ LoQ)
+- classifies samples based on amplification success ([PCR] yield ≥ LoD)
 - calculates %samples amplified based on amplification successful
 
 </details>

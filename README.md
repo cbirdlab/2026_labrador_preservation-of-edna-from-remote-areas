@@ -15,7 +15,7 @@ This repository contains a reproducible R-based analysis pipeline for processing
 
 * `scripts` - all instructions for data manipulation
 * `data` - all raw and processed data files
-* `output` - statistica results and figures generated from R scripts 
+* `results` - statistica results and figures generated from R scripts 
 
 ---
 

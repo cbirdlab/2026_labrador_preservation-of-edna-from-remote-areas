@@ -51,7 +51,7 @@ pacman::p_load(
 
 # Assign input file paths
 path_df_for_stats <- 
-  "../data/processed/df_for_stats.rds"
+  "../data/df_for_stats.rds"
 
 # Assign output file paths
 path_compare_control <- 

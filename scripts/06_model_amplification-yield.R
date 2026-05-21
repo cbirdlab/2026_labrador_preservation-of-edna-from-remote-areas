@@ -5,8 +5,8 @@
 ####----INTRODUCTION----####
 # This sets up the statistical tests for the amplification success.
 # The PCR concentration (ng/uL) were calculated using JSelwyn's quant app.
-## From the Quant App's first module, we determined the limit of quantification (LoQ; the lowest concentration of the quant standard that was used in the assay)
-## If [PCR] < LoQ, then failed amplification; otherwise, successful amplification.
+## From the Quant App's first module, we determined the limit of detection (LoD; the lowest concentration of the quant standard that was used in the assay)
+## If [PCR] < LoD, then failed amplification; otherwise, successful amplification.
 ## I find this to be more objective than using gel scores (can be very subjective)
 # Amplification success was scored as binary (0/1). 
 
@@ -47,10 +47,10 @@ pacman::p_load(
 
 # Assign input file paths
 path_df_stats <- 
-  "../data/processed/df_for_stats.rds"
+  "../data/df_for_stats.rds"
 
 path_model_pcr_quant <- 
-  "../data/processed/jselwyn_quant_modules/quant_module_1/rme_pcr-16_accuclear_models_2025-07-02.rds"
+  "../data/rme_pcr-16_accuclear_models_2025-07-02.rds"
 
 # Assign output file paths
 path_plot_pcr_probability <- 

@@ -27,7 +27,7 @@ pacman::p_load(
 
 # Assign input file paths
 path_timeline <- 
-  "../data/raw/rme_timeline.xlsx"
+  "../data/rme_timeline.xlsx"
 
 # Assign output file paths
 path_timeline_plot <- 
