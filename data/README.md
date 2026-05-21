@@ -108,7 +108,7 @@ Concentration of DNA extracted from Sterivex filters using the [DNA Quantificati
 <summary> rme_preservative_dna_2024-11-06_sample-concentration.csv </summary>
 
 ## Description
-Concentration of DNA extracted from the preservative filtrate fraction using the [DNA Quantification Toolkit (Selwyn et al., 2025)](](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
+Concentration of DNA extracted from the preservative filtrate fraction using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
 
 ### Column Headers
 
@@ -132,7 +132,7 @@ Concentration of DNA extracted from the preservative filtrate fraction using the
 <summary> rme_pcr-16_accuclear_models_2025-07-02.rds </summary>
 
 ## Description
-Model result from calculating the concentration of the PCR products using the DNA Quantification Toolkit (Selwyn et al., 2025). This is an RDS object that can be opened using R.
+Model result from calculating the concentration of the PCR products using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md). This is an RDS object that can be opened using R.
 
  
 </details>
