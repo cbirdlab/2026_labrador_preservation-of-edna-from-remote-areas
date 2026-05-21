@@ -112,6 +112,46 @@ Concentration of DNA extracted from Sterivex filters using the [DNA Quantificati
 
 ---
 
+
+<details>	
+<summary> rme_pcr-16_accuclear_models_2025-07-02.rds </summary>
+
+## Description
+Model result from calculating the concentration of the PCR products using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md). This is an RDS object that can be opened using R.
+
+ 
+</details>
+
+---
+
+<details>	
+<summary> rme_pcr-16_sample_concentraions.csv </summary>
+
+## Description
+Concentration of PCR amplicon using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
+
+### Column Headers
+
+- A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
+- B) dna_plate_id: ID assigned to the PCR plate 
+- C) dna_plate_row: the row location of the sample in the plate
+- D) dna_plate_col: the column location of the sample in the plate
+- E) dna_extract_tube_ID: ID assigned to the individual DNA tubes
+- F) sample_type: sample classification (sample, field control, extraction control)
+- G) preservative: the preservative treatment used in the experiment
+- H) source: source of eDNA, either from Filter or Filtrate
+- I) extraction_round: indicates which round of extraction (first, second) the eDNA was obtained
+- J) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- K) ng_per_ul_mean: mean PCR amplicon concentration (ng/uL) across all replicates
+- L) ng_per_ul_lwr95: lower 95% confidence interval of the estimated PCR amplicon concentration
+- M) ng_per_ul_upr95: upper 95% confidence interval of the estimated PCR amplicon concentration 
+- N) flags: notes/comments on samples based on their concentration
+ 
+ 
+</details>
+
+---
+
 <details>	
 <summary> rme_pcr-score.xlsx </summary>
 
@@ -193,18 +233,49 @@ Concentration of DNA extracted from the preservative filtrate fraction using the
 ---
 
 <details>	
-<summary> rme_pcr-16_accuclear_models_2025-07-02.rds </summary>
+<summary> rme_preservative_dna_2024-11-06_sample-concentration.csv </summary>
 
 ## Description
-Model result from calculating the concentration of the PCR products using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md). This is an RDS object that can be opened using R.
+Concentration of DNA extracted from the preservative filtrate fraction using the [DNA Quantification Toolkit (Selwyn et al., 2025)](https://github.com/tamucc-gcl/gcl_bioinformatic_tools/blob/main/labTools/DNA_Quant/README.md)
 
+### Column Headers
+
+- A) quant_stage: indicates whether the quantification was done the first time (original) or was redone due to various problems (e.g., standards were erratic)
+- B) dna_plate_id: ID assigned to the DNA plate 
+- C) dna_extract_tube_ID: ID assigned to the individual DNA tubes
+- D) sample_type: sample classification (sample, field control, extraction control)
+- E) preservative: the preservative treatment used in the experiment
+- F) dna_plate_row: the row location of the DNA sample in the DNA plate
+- G) dna_plate_col: the column location of the DNA sample in the DNA plate
+- H) sample_id: ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- I) ng_per_ul_mean: mean DNA concentration (ng/uL) across all replicates
+- J) ng_per_ul_lwr95: lower 95% confidence interval of the estimated DNA concentration
+- K) ng_per_ul_upr95: upper 95% confidence interval of the estimated DNA concentration 
+- L) flags: notes/comments on samples based on their concentration
  
 </details>
 
 ---
 
 <details>	
-<summary> rme_site-info.csv </summary>
+<summary> rme_sample-info.xlsx </summary>
+
+## Description
+Surface seawater sample metadata
+
+### Column Headers
+
+- A) site: site name
+- B) sample-code:ID assigned to the Sterivex filters used throughout the experiment, following the convention <site_id>-<collection_date>-<preservative_code>
+- C) volume-filtered_ml: volume (mL) of seawater filtered through the Sterivex filter
+- D) notes: additional notes on sampling
+  
+</details>
+
+---
+
+<details>	
+<summary> rme_site-info.xlsx </summary>
 
 ## Description
 Sampling site metadata
@@ -222,3 +293,21 @@ Sampling site metadata
 - I) longitude: site coordinate (longitude) in decimal degrees
   
 </details>
+
+---
+
+<details>	
+<summary> rme_timeline.xlsx </summary>
+
+## Description
+Sample collection timeline
+
+### Column Headers
+
+- A) storage_condition: storage condition of Sterivex filteres (on ice, -20C, N2 dewar, -80C)
+- B) date_start: start date (YYYY-MM-DD HH-MM) when the filter was put in storage
+- C) date_end: end date (YYYY-MM-DD HH-MM) when the filter was removed from storage
+  
+</details>
+
+---

@@ -150,13 +150,6 @@ site_metadata <-
                  "low")),
     weather_conditions = as.factor(weather_conditions),
     wave_strength = as.factor(wave_strength)
-  ) %>% 
-  select (
-    -c(
-      utm_zone,
-      easting,
-      northing
-    )
   ) 
 
 # Sample Information
