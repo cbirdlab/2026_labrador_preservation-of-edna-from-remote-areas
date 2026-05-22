@@ -28,6 +28,13 @@ Labrador, K. L., Garcia, E., Magnuson, S. F., Selwyn, J. D., & Bird, C. E. (2026
 
 ---
 
+# License
+
+- **Code** (R scripts): [MIT License](./LICENSE)
+- **Data** (datasets): [CC BY 4.0](./DATA_LICENSE)
+
+---
+
 # Directory Structure
 
 * `scripts` - all instructions for data manipulation
